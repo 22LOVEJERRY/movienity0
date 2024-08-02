@@ -1,0 +1,387 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(32, 27, 27);
+
+}
+
+header{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+
+header article{
+    width: 100%;
+    height: 80%;
+    padding: 28px 170px;
+    background-image: url(./images/banner.jpg);
+    background-size: 100% ;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+header article p{
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+}
+
+header article form{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+ article form input, textarea{
+    width: 70%;
+    padding: 10px 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: 15px;
+    outline: none;
+    
+ }
+
+ article form input:focus, textarea:focus{
+    border-color: darkorange;
+ }
+
+ article form img{
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+ }
+
+ article form b{
+    font-size: 20px;
+    color: white;
+    padding: 8.5px 17px;
+    background-color: darkorange;
+    border-radius: 50px;
+   position: absolute;
+   left: 659px;
+ }
+
+ header nav{
+    width: 100%;
+    padding: 10px 170px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+ }
+
+ header nav a{
+    font-size: 15px;
+    color: white;
+ }
+
+ header nav a:hover{
+   color: darkorange;
+   cursor: pointer;
+ }
+
+ main{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    animation: led;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+ }
+
+ .trend{
+   width: 100%;
+   height: fit-content;
+   padding: 20px 10%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 50px;
+ }
+
+ .trend h1{
+   font-size: 45px;
+   font-weight: 300;
+   margin-top: 20px;
+ }
+
+ .trend article{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+ }
+
+ .trend article div{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+ }
+
+ .trend article div img{
+   width: 30%;
+   height: 200px;
+   object-fit: cover;
+ }
+
+ .trend article span{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 5px;
+}
+
+.trend article span img{
+   width: 80%;
+   height: 405px;
+   margin-left: 47px;
+   object-fit: cover;
+}
+
+.trend article span div{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 5px;
+}
+
+.trend article span div img{
+   width: 78%;
+   height: 200px;
+   margin-right: 40px;
+   object-fit: cover;
+}
+
+.create{
+   width: 100%;
+   height: fit-content;
+   padding: 20px 13.5%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+}
+
+.create h2{
+   font-size: 45px;
+   font-weight: 300;
+   margin-top: 20px;
+
+}
+
+.create form{
+   width: 100%;
+   height: fit-content;
+   padding: 30px;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 15px;
+
+}
+
+.create form div{
+   width: 100%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 40px;
+}
+
+.create form span{
+   width: 100%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 40px;
+
+}
+
+.create form input, textarea{
+   width: 100%;
+   padding: 10px 20px;
+   border: none;
+   border-bottom: 1px solid black;
+   font-size: 20px;
+   outline: none;
+}
+
+.create form input:focus, textarea:focus{
+   border-color: darkorange;
+}
+
+.create form button{
+   width: fit-content;
+   padding: 5px 15px;
+   color: white;
+   background-color: rgb(155, 153, 153);
+   font-size: 18px;
+   font-weight: 200;
+   cursor: pointer;
+   transition: 0.1s;
+   border: none;
+
+}
+
+.create form button:hover{
+   background-color: darkorange;
+}
+
+.gallery{
+   width: 100%;
+   height: fit-content;
+   padding: 20px 10%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 50px;
+}
+
+.gallery h2{
+   font-size: 45px;
+   font-weight: 300;
+   margin-top: 20px;
+}
+
+.gallery article{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+}
+
+.gallery article div{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+.gallery article span{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+.gallery article img{
+   width: 30%;
+   height: 200px;
+   object-fit: cover;
+}
+
+.contact{
+   width: 100%;
+   height: fit-content;
+   padding: 100px 10%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+.contact article{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 25px;
+   position: absolute;
+   top: 120px;
+}
+
+.contact article div{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+
+.contact article div h2{
+   font-size: 45px;
+   font-weight: 300;
+   margin-top: 20px;
+}
+
+.contact article p{
+   width: 35%;
+   padding: 20px 15px;
+   background-color: whitesmoke;
+   font-size: 18px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+footer{
+   width: 100%;
+   height: 30px;
+   padding: 5px 20px;
+   background-color: whitesmoke; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+footer p{
+   font-size: 12px;
+}
+
+@keyframes led{
+   0%{
+      background-color:  rgb(32, 27, 27);
+   }
+
+   100%{
+      background-color: white;
+   }
+}

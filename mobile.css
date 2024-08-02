@@ -1,0 +1,161 @@
+@media(max-width:450px){
+    
+    header{
+        height: 250px;
+    }
+    
+    header article{
+        padding: 15px 36px;
+        gap: 30px;
+    }
+    
+    header article p{
+        font-size: 20px;
+    }
+    
+   
+     article form input, textarea{
+        width: 80%;
+        padding: 6px 40px;
+        
+     }
+
+    
+     article form b{
+        padding: 6px 15px;
+       left: 200px;
+     }
+    
+     header nav{
+       height: 30px;
+        padding: 10px 10px;
+        gap: 10px;
+     }
+    
+     header nav a{
+        font-size: 8px;
+     }
+
+     .trend{
+       padding: 20px 5px;
+       gap: 50px;
+     }
+    
+
+     .trend h1{
+       font-size: 30px;
+     }
+    
+    
+     .trend article div img{
+       height: 100px;
+     }
+    
+    .trend article span img{
+       width: 60%;
+       height: 210px;
+       margin-left: 20px;
+      
+    }
+    
+    .trend article span div{
+       gap: 10px;
+    }
+    
+    .trend article span div img{
+       width: 90%;
+       height: 100px;
+       margin-right: 40px;
+      
+    }
+    
+    .create{
+       padding: 20px 5%;
+      
+    }
+    
+    .create h2{
+       font-size: 30px;
+
+    
+    }
+    
+    .create form{
+       padding: 30px;
+       gap: 15px;
+    
+    }
+    
+    .create form div{
+       display: flex;
+       flex-direction: column;
+       gap: 15px;
+    }
+    
+    .create form span{
+       display: flex;
+       flex-direction: column;
+       gap: 15px;
+    
+    }
+   
+    
+    .gallery{
+       padding: 20px 5px;
+    }
+    
+    .gallery h2{
+       font-size: 30px;
+    }
+    
+    .gallery article{
+       gap: 20px;
+    }
+    
+    .gallery article div{
+       gap: 5px;
+    }
+    
+    .gallery article span{
+       gap: 5px;
+    }
+    
+    .gallery article img{
+       height: 100px;
+    }
+    
+    .contact{
+       padding: 100px 5px;
+    }
+
+    .contact img{
+        width: 100;
+        height: 100;
+    }
+    
+    .contact article{
+       position: absolute;
+       bottom: 1px;
+    }
+    
+    .contact article div{
+       justify-content: flex-start;
+       gap: 20px;
+    }
+    
+    .contact article div h2{
+        margin-left: 30px;
+       font-size: 30px;
+    }
+    
+    .contact article p{
+       width: 70%;
+
+    }
+ 
+    footer p{
+       font-size: 10px;
+    }
+    
+    
+}
